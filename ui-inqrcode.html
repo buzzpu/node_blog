@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <style>
+       .inqrbox {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.9);
+            position: fixed;
+            z-index: 9999;
+            top: 0;
+           left: 0;
+       } 
+       .inqrboxMain {
+            display: table;
+            max-width: 90%;
+            height: 100%;
+            margin: 0 auto;
+       }
+       .inqrcont {
+            display: table-cell;
+            vertical-align: middle;
+       }
+       .inqrcont_title {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 3px;
+       }
+       .inqrcont_title input {
+            width: 95%;
+            text-align: center;
+            margin-top: 5px;
+       }
+       
+       
+   </style>
+
+<div class="inqrbox">
+    <div class="inqrboxMain">
+        <div class="inqrcont">
+            <div class="inqrcont_title">
+               請複製以下網址，並透過系統瀏覽器參加活動。
+                <br>
+                <input type="text" value="www.digwow.com">
+            </div>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
